@@ -29,7 +29,6 @@ const Page3 = () => {
     { id: 10, name: 'Prakhar Rai', description: 'Manages the planning and execution of events as Senior Event Manager.', image: prakhar },
     { id: 11, name: 'Mohammad Zaid', description: 'Manages the planning and execution of video projects as Senior Video Editor.', image: zaid },
     { id: 12, name: 'Nirdesh Sharma', description: 'Leads the team, providing strategic vision and guidance.', image: nirdesh },
-
   ];
 
   const [currentIndexes, setCurrentIndexes] = useState([0, 1, 2]);
@@ -125,18 +124,18 @@ const Page3 = () => {
                 </div>
               </div>
               <div
-                
                 className='h-1/2 md:h-2/5 border-t-2 border-black px-2'
               >
                 <div
-                ref={el => { descRefs.current[idx] = el; }}
-                className='h-5/6 md:h-full p-6'>
-                <div className='h-2/3 w-full flex justify-center items-center'>
-                  <h1 className='text-xl font-mono text-slate-500 text-center'>{teamMembers[index].description}</h1>
-                </div>
-                <div className='h-1/3 w-full flex justify-center items-center'>
-                  <div className='text-2xl font-bold italic text-slate-500'>{teamMembers[index].name}</div>
-                </div>
+                  ref={el => { descRefs.current[idx] = el; }}
+                  className='h-5/6 md:h-full p-6'
+                >
+                  <div className='h-2/3 w-full flex justify-center items-center'>
+                    <h1 className='text-xl font-mono text-slate-500 text-center'>{teamMembers[index].description}</h1>
+                  </div>
+                  <div className='h-1/3 w-full flex justify-center items-center'>
+                    <div className='text-2xl font-bold italic text-slate-500'>{teamMembers[index].name}</div>
+                  </div>
                 </div>
               </div>
             </div>
