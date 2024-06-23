@@ -4,7 +4,6 @@ import Image from 'next/image';
 import about from '../Images/about.gif';
 // import htmlLogo from '../Images/htmllogo.avif'; // replace with the actual path
 import cssLogo from '../Images/csslogo.jpeg'; // replace with the actual path
-import reactLogo from '../Images/reactlogo.png'; // replace with the actual path
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -93,7 +92,7 @@ const Page2: React.FC = () => {
         <div className='h-1/3 w-full  flex items-end relative'>
           <span
             ref={aboutSpanRef}
-            className='py-1 px-2  md:py-2 md:px-3 mx-4 bg-purple-300 text-2xl md:text-3xl rounded-tr-3xl font-mono'
+            className='py-1 px-2  md:py-2 md:px-3 mx-4 bg-purple-300 text-2xl md:text-3xl rounded-tr-xl font-mono'
             onClick={handleAboutHover}
             onMouseEnter={handleAboutHover}
           >
@@ -110,7 +109,7 @@ const Page2: React.FC = () => {
           </h1>
         </div>
       </div>
-      <div className='w-full md:w-1/3 h-full my-3 md:my-4 px-4'>
+      <div className='w-full md:w-1/3 h-full my-1 md:my-4  px-4'>
         <div className='w-full h-1/3 flex justify-center items-center text-md md:text-lg px-4'>
           <p className='text-white font-mono'>
             Collaboration is key at Webweavers. We believe in working closely with clients, understanding their vision, and achieving goals together. Our team fosters a transparent, communicative environment, ensuring every project benefits from diverse perspectives. At Webweavers, we create solutions that reflect the collective creativity and expertise of our collaborative efforts.
@@ -127,8 +126,8 @@ const Page2: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className='w-[80%] md:w-[400px] md:mx-0 mx-10 -my-30 h-full  overflow-hidden flex justify-start md:justify-end -my-6 items-end'>
-        <div className='h-3/4   w-full'>
+      <div className='w-[70%] md:w-[400px] md:mx-0 mx-12 -my-30 h-[900px]  md:h-full overflow-hidden flex justify-center md:justify-end -my-6 md:items-end items-center'>
+        <div className='h-5/6 md:h-3/4   w-full'>
           <div className='h-1/3 flex md:flex-row md:justify-end'>
             {/* white div 1 */}
             <div ref={whiteDiv1Ref} className='w-1/2 h-full bg-[#eae8dc] rounded-tl-full rounded-bl-full rounded-tr-full md:rounded-tl-full md:rounded-bl-full'></div>

@@ -51,7 +51,7 @@ const Benefits: React.FC = () => {
     <div className='w-full h-[1500px] md:h-screen rounded-tl-3xl rounded-tr-3xl bg-[#eae8dc] md:overflow-hidden'>
       <div className='h-1/5 w-full flex justify-center items-center'>
         <div className='w-5/6 h-full flex flex-col justify-center overflow-hidden items-start gap-0'>
-          <span className='rounded-tr-3xl py-2 px-3 text-white my-4 bg-blue-950'>
+          <span className='rounded-tr-xl py-2 px-3 text-white my-4 bg-blue-950'>
             <span ref={containerRef} className='text-xl md:text-2xl font-mono'>Benefits</span>
           </span>
           <h1 ref={textRef} className='text-3xl md:text-5xl font-mono text-blue-950'>Strength that speaks for itself</h1>
@@ -64,7 +64,7 @@ const Benefits: React.FC = () => {
             <div className='bg-violet-300 h-[70px] md:h-1/4 w-full border-l-4 border-r-4 border-black rounded-r-full rounded-l-full text-4xl md:text-5xl font-mono flex justify-center items-start bold text-blue-950'>Connections</div>
             <div className='bg-violet-300 h-[70px] md:h-1/4 w-full border-l-4 border-r-4 border-black rounded-r-full rounded-l-full'></div>
             <div className='bg-violet-300 h-[70px] md:h-1/4 w-full border-l-4 border-r-4 border-black rounded-r-full rounded-l-full flex justify-center items-start text-base md:text-xl text-blue-950'>
-              <div className='w-4/6 h-full text-gray-100 -my-16 font-mono'>Joining a web society fosters valuable connections with peers and professionals....</div>
+              <div className='w-4/6 h-full bg-violet-300 text-gray-100 -my-16 font-mono'>Joining a web society fosters valuable connections with peers and professionals....</div>
             </div>
             <div className='bg-violet-300 h-[70px] md:h-1/4 w-full   border-b-4 border-l-4 border-r-4 border-black rounded-r-full rounded-l-full'></div>
           </div>

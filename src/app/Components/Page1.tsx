@@ -58,9 +58,9 @@ const Page1 = () => {
 
   return (
     <>
-      <div className='flex flex-col  justify-center items-center md:flex-row md:justify-center md:items-center h-full my-0 bg-[#f8f7f1]'>
+      <div className='flex flex-col  justify-center items-center md:flex-row md:justify-center md:items-center h-full my-0 bg-[#eae8dc]'>
         {/* left section */}
-        <div className='w-full h-[1000px] md:w-[1261px]  md:h-[800px] flex flex-col justify-start items-center md:flex-row md:justify-between md:items-center'>
+        <div className='w-full h-[1000px] md:w-[1261px] my-2 md:h-[800px] flex flex-col justify-start items-center md:flex-row md:justify-between md:items-center'>
           <div className='w-full h-[400px] md:w-[500px] flex justify-start md:items-end overflow-hidden'>
             <div ref={contentDivRef} className='w-full md:w-[540px] h-full'>
               <div className='h-1/2 flex flex-col items-start justify-end'>
@@ -74,7 +74,7 @@ const Page1 = () => {
                 </h1>
               </div>
               <div className='h-1/4    flex justify-start items-start'>
-                <a href='' className='bg-blue-950 mx-7 my-2 md:mx-0 md:my-0  py-3 px-4 md:py-4 md:px-6 rounded-full text-white text-xl md:text-xl font-mono'>Connect us</a>
+                <a href='https://www.commudle.com/communities/webweavers' className='bg-blue-950 mx-7 my-2 md:mx-0 md:my-0  py-3 px-4 md:py-4 md:px-6 rounded-full text-white text-xl md:text-xl font-mono'>Connect us</a>
               </div>
             </div>
           </div>
